@@ -1,6 +1,6 @@
 OSNAME:=$(shell uname -s)
 
-CPPFLAGS=-I/usr/local/lib -Wno-write-strings
+CPPFLAGS=-I/usr/local/lib -I../../qmk_firmware -Wno-write-strings
 
 # Order of LDFLAGS matters! Remember, linking happens after compiling.
 LDFLAGS=
